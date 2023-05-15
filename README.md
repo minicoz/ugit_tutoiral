@@ -1,6 +1,6 @@
 # ugit
 
-a micro git replicate in python
+A mili git replicate in python3
 
 ---
 
@@ -21,5 +21,16 @@ ugit hash-object txt.txt
 ugit get-object sha1hash
 ugit etc...
 ```
+
+### Features done so far:
+ - init
+ - hash-object
+ - cat-object
+ - write-tree
+ - read-tree
+ - commit 
+ - log
+ - checkout (Branching time~!)
+ - tag (wip)
 
 https://www.leshenko.net/p/ugit/
